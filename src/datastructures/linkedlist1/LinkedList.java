@@ -1,6 +1,4 @@
-package datastructures.linkedlist;
-
-import org.w3c.dom.Node;
+package datastructures.linkedlist1;
 
 public class LinkedList {
 
