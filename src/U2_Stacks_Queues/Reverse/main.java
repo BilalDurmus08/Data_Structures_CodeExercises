@@ -7,7 +7,7 @@ public class main {
 
     Return a new String with the letters in reverse order.
 
-    This method will be written in the same class as the main method so it will be static.*/
+    This method will be written in the same class as the Main method so it will be static.*/
 
     public static String reverseString(String string){
 
