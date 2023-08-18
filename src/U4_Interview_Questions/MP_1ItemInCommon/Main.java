@@ -1,6 +1,5 @@
-package U4_Interview_Questions.MP1_ItemInCommon;
+package U4_Interview_Questions.MP_1ItemInCommon;
 
-import java.lang.reflect.Array;
 import java.util.HashMap;
 
 //HT: Item In Common ( ** Interview Question)
