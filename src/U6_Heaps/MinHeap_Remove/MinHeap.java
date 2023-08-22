@@ -80,10 +80,41 @@ public class MinHeap {
     }
 
     // WRITE THE REMOVE METHOD HERE //
-    //                              //
-    //                              //
-    //                              //
-    //                              //
-    //////////////////////////////////
+    public Integer remove(){
+        if (heap.isEmpty()){
+            return null;
+        }
+        if (heap.get(1) == null){
+            int temp = heap.get(0);
+            heap.set(0, null);
+            return temp;
+        }
+        int lastIndex = heap.size() - 1;
+        swap(0,lastIndex);
+        int temp = heap.get(lastIndex);
+        heap.remove(heap.get(lastIndex));
+        sinkDown(0);
+        return temp;
+
+    }
+
+
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
