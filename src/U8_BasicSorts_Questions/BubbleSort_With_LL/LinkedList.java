@@ -1,4 +1,4 @@
-package U8_BasicSorts_Questions.BubbleSort;
+package U8_BasicSorts_Questions.BubbleSort_With_LL;
 
 
 //Bubble Sort of LL ( ** Interview Question)
@@ -13,8 +13,6 @@ package U8_BasicSorts_Questions.BubbleSort;
 //        please note that your bubbleSort() method should not return any value;
 //        it should sort the linked list in-place. That is, it should modify the original
 //        linked list rather than creating and returning a new, sorted list.
-
-import U6_Heaps_Questions.Kth_Smallest_Element.Heap;
 
 public class LinkedList {
 
