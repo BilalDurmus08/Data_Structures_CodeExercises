@@ -19,28 +19,26 @@ import java.util.Arrays;
 public class Main {
 
     // WRITE THE REMOVEELEMENT METHOD HERE //
-    public static int removeElement(int[] nums, int val){
+    public static int removeElement(int[] nums, int val) {
         int k = 0;
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == val){
-            int temp = nums[i];
-            nums[i] = nums[k];
-            nums[k] = temp;
-            k++;
+            if (nums[i] == val) {
+                int temp = nums[i];
+                nums[i] = nums[k];
+                nums[k] = temp;
+                k++;
             }
         }
         int[] newArray = new int[nums.length - k];
         int i = 0;
         for (; k < nums.length; k++) {
-                newArray[i] = nums[k];
+            newArray[i] = nums[k];
             i++;
         }
         nums = newArray;
         return nums.length;
 
     }
-
-
 
 
     public static void main(String[] args) {

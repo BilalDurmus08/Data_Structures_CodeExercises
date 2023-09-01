@@ -15,7 +15,7 @@ public class Main {
         myBST.insert(82);
 
         System.out.println("DFS InOrder:");
-        System.out.println( myBST.DFSInOrder() );
+        System.out.println(myBST.DFSInOrder());
 
         /*
             EXPECTED OUTPUT:

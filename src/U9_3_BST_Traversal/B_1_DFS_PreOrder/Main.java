@@ -16,7 +16,7 @@ public class Main {
         myBST.insert(82);
 
         System.out.println("DFS PreOrder:");
-        System.out.println( myBST.DFSPreOrder() );
+        System.out.println(myBST.DFSPreOrder());
 
         /*
             EXPECTED OUTPUT:

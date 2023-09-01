@@ -94,12 +94,12 @@ public class BinarySearchTree {
         ArrayList<Integer> desired = new ArrayList<>();
 
         class Traverse {
-            Traverse (Node current){
+            Traverse(Node current) {
                 desired.add(current.value);
-                if (current.left != null){
+                if (current.left != null) {
                     new Traverse(current.left);
                 }
-                if (current.right != null){
+                if (current.right != null) {
                     new Traverse(current.right);
                 }
 

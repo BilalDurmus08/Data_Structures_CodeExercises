@@ -16,7 +16,7 @@ public class Main {
         myBST.insert(82);
 
         System.out.println("DFS PostOrder:");
-        System.out.println( myBST.DFSPostOrder() );
+        System.out.println(myBST.DFSPostOrder());
 
         /*
             EXPECTED OUTPUT:

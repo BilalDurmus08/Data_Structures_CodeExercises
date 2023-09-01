@@ -78,14 +78,14 @@ public class BinarySearchTree {
         while (myQueue.size() > 0) {
             currentNode = myQueue.poll();
             desired.add(currentNode.value);
-            if (currentNode.right != null){
+            if (currentNode.right != null) {
                 myQueue.add(currentNode.right);
             }
-            if (currentNode.left != null){
+            if (currentNode.left != null) {
                 myQueue.add(currentNode.left);
             }
         }
-    return desired;
+        return desired;
     }
 
 
