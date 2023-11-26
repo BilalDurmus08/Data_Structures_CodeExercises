@@ -27,6 +27,7 @@ public class Main {
             if (max < myList[i]) {
                 max = myList[i];
             }
+
             if (min > myList[i]) {
                 min = myList[i];
             }
